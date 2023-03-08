@@ -1,0 +1,174 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+[class*="column"] {
+    display: flex;
+    flex-direction: column;
+}
+.overlay>* {
+    position: absolute;
+}
+
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+p {
+    font-size: 32px;
+}
+
+header {
+    height: 100px;
+    background-color: #333333;
+}
+
+.man-bg {
+    background-image: url(../images/background_cow.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 0 156px 0 132px;
+}
+.man-bg .row {
+    justify-content: space-between;
+}
+.man-bg .overlay {
+    width: 1049px;
+}
+.man-bg [class*="column-"] {
+    width: 1049px;
+    height: 490px;
+    justify-content: center;
+}
+.man-bg h1 {
+    margin-bottom: 50px;
+}
+.man {
+    height: 490px;
+    display: flex;
+    align-items: flex-end;
+}
+.man-img {
+    background-image: url(../images/man.png);
+    background-size: cover;
+    width: 424px;
+    height: 420px;
+}
+
+
+.woman-bg {
+    background-color: white;
+    width: 100%;
+    padding: 0 230px 0 220px;
+    border-bottom: #333333 solid 5px;
+}
+.woman-bg .row {
+    justify-content: space-between;
+}
+.woman-bg .overlay {
+    width: 1049px;
+}
+.woman-img {
+    background-image: url(../images/Olesia_Avramenko.jpg);
+    background-size: cover;
+    width: 372px;
+    height: 561px;
+}
+.woman-bg [class*="column-"] {
+    width: 1049px;
+    height: 561px;
+    justify-content: center;
+}
+.woman-bg h1 {
+    margin-bottom: 50px;
+}
+
+.book-bg {
+    background-color: white;
+    width: 100%;
+    padding: 140px 230px 90px 306px;
+}
+.book-bg .overlay {
+    width: 783px;
+    display: flex;
+    align-items: center;
+}
+.book-bg .row {
+    justify-content: space-between;
+}
+.book-bg p {
+    width: 783px;
+}
+.book-img {
+    background-image: url(../images/book.jpg);
+    background-size: cover;
+    width: 424px;
+    height: 476px;
+}
+.book-bg .row + .row {
+    margin-top: 120px;
+    justify-content: center;
+}
+.book-bg .row + .row .overlay {
+    width: 320px;
+    height: 80px;
+    margin: 0 50px;
+}
+.book-bg [class*="btn"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 320px;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.download-btn {
+    background-color: #DD1A12;
+}
+.download-btn:hover {
+    background-color: #fd4039;
+}
+.read-btn {
+    background-color: #2C2A8B;
+}
+.read-btn:hover {
+    background-color: #4644da;
+}
+
+footer {
+    height: 100px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px;
+    margin-left: 27px;
+    border-radius: 25px;
+}
+footer a:hover {
+    background-color: #4e4e4e;
+}
